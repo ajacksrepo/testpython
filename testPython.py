@@ -1,12 +1,17 @@
 from sys import argv
 
-script, operation, number1, number2
+script, operation, number1, number2 = argv
 
-    if operation == a
-    print (float(number1 + number2))
-    elif operation == s
-    print (float(number1 - number2))
-    elif operation == m
-    print (float(number1 * number2))
-    elif operation == d
- (float(number1 / number2))
+x = float(number1)
+y = float(number2)
+
+if operation == "a":
+    print "answer %s" %(x + y)
+if operation == "s":
+    print "answer %s" %(x - y)
+elif operation == "m":
+    print "answer %s" %(x * y)
+elif operation == "d":
+    print "answer %s" %(x / y)
+else
+    print "try again"
