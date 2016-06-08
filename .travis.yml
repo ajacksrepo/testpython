@@ -3,4 +3,4 @@ python:
   - 2.7
   - 3.3
 install: "pip install --user -r requirements.txt"
-script: python testPython.py
+script: pytest
