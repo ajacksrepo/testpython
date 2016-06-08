@@ -14,4 +14,4 @@ elif operation == "m":
 elif operation == "d":
     print "answer %s" %(x / y)
 else
-    print "try again"
+    print "Try again!"
