@@ -9,4 +9,4 @@ script, operation, number1, number2
     elif operation == m
     print (float(number1 * number2))
     elif operation == d
-    print (float(number1 / number2))
+ (float(number1 / number2))
